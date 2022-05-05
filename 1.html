@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- 관용적으로 이 문서는 html 이다 -->
+<html lang="en" dir="ltr">
+<!-- 최고위층 태그 <html> </html> -->
+  <title>WEB1 - HTML</title>
+  <!-- <title> </title> : 제목 만드는 태그 -->
+  <meta charset="utf-8">
+  <!-- 이 본문이 utf-8 이라는 저장방식으로 저장되어 있다 (=인코딩 방식) -->
+</head>
+<!-- body를 설명하는 태그는 <head> </head> head 태그로 묶기로 함 -->
+
+<body>
+  <!-- 본문은 <body> </body> 라는 태그로 묶기로 약속 -->
+  <h1><a href="index.html">WEB</a></h1>
+  <!-- 하이퍼링크가 가리킬 html 만들어주기 -->
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScripts</a></li>
+  </ol>
+
+  <ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. JavaScript</li>
+  </ul>
+  <!--
+  <ul> : 부모태그
+    <li> </li> : 자식태그
+  </ul>
+  -->
+
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScripts</li>
+  </ol>
+  <!--
+  <ol> : 번호 매기기
+    <li> </li>
+  </ol>
+  -->
+  <h1>HTML이란 무엇인가?</h1>
+  Hypertext Markup Languate (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+  <!--
+  <strong> </strong> : 강조 태그
+  <u> </u> : 밑줄 태그
+  열리는 태그, 닫히는 태그(/슬래시)
+  -->
+
+  <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a>
+  <!-- hypertext(링크), reference(참조), 클릭했을 때 새탭에 열리길 원한다면 target="_blank",
+  클릭하기 전에 무엇인지 알려주고 싶다?(툴팁 ) title="html5 speicification" -->
+
+  <h1>This is heading 1</h1>
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+
+  <!--
+  h1 - h6 : 제목을 나타내는 태그
+  -->
+
+  <p>Hi nice to meet you.<br>Have a nice day.</p>
+  <!--
+  <br> : 줄 바꿈 태그 (닫히는 태그 딱히 필요 없음)
+  <p> </p> : 단락을 표현할 때 쓰라고 만든 태그 (단락은 나눌 수 있어서 닫히는 태그도 필요함)
+            (br태그 보다 p 태그가 웹페이지를 정보로서 가치있게 만들어줌(의미론적으로 단락을 표시해줌))
+  *css 꿀팁
+  <p style="margin-top:45px;"> : 태그와 태그 사이의 여백을 나타냄 (위로 45픽셀 여백)
+  -->
+
+  <img src="moon.jpg" width="100%">
+  <!-- <img src="이미지 이름" width="크기"> : src랑 width 위치 변해도 상관 없음-->
+</body>
